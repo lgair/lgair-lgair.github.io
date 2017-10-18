@@ -1,149 +1,371 @@
-<!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 
-  <head>
+<head>
+    
+    <title>Luke Gair</title> <!-- personal vCard-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
+    <!--[if IEMobile]> 
+    <link rel="stylesheet" type="text/css" href="css/iemobile.css"/>
+    <![endif]--> 
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/jquery-ui-map.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-	<link rel="shortcut icon" href="Images/favicon1.ico">
-    <title>Luke Gair</title>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+    <body>
+        <!-- Container -->
+        <section id="container">
+        
+            <!-- Header -->
+			<header> 
+            	<!-- Logo -->
+            	<div id="logo">
+                	<h2>LUKE GAIR</h2>
+                    <h4>COMPUTER ENGINEERING STUDENT</h4>
+                </div>
+                <!-- /Logo -->
+                
+                <!-- Social Icons -->
+                <ul class="socialicons">
+                    <li class="socials-text">Social Profiles</li>
+                	<li><a href="https://www.facebook.com/luke.gair.3" class="transition">&#x2a;</a></li>
+                    <li><a href="#" class="transition">&#x2c;</a></li><!-- twitter -->
+                    <li><a href="#" class="transition">&#x2d;</a></li><!-- vine -->
+                    <li><a href="#" class="transition">&#x31;</a></li>
+                </ul>
+                <!-- /Social Icons -->
+            </header>
+            <!-- /Header -->
+            
+            <!-- Content -->
+            <section id="content" >
+            
+                <!-- Profile -->
+                <div id="profile"> 
+                 	<!-- About section -->
+                	<div class="about">
+                    	<div class="photo-inner">
+                            <ul>
+                                <li><img src="images/LukeProfilePhoto.jpg" height="186" width="153" /></li>
+                                <li><img src="images/LukeProfilePhoto2.jpg" height="186" width="153" /></li>
+                            </ul>
+                        </div>
+                        <h1>LUKE GAIR</h1>
+                        <h3>COMPUTER ENGINEERING STUDENT</h3>
+                        <p>Self-driven and enthusiastic student pursuing a Major in Computer Engineering and a Minor in Computer Science. Excited to develop and produce quality products within the realm of computer hardware, and software development.</p>
+                    </div>
+                    <!-- /About section -->
+                     
+                    <!-- Personal info section -->
+                	<ul class="personal-info">
+						<li><label>Name</label><span>Luke Gair</span></li>
+                        <li><label>Birthday</label><span>April 13th, 1997</span></li>
+                        <li><label>Address</label><span>Vancouver, Canada</span></li>
+                        <li><label>Email</label><span class="word-wrap">lgair@sfu.ca</span></li>
+                        <li><label>Phone</label><span>604 812 6833</span></li>
+                        <li><label>Website</label><span class="word-wrap"><a href="#">www.lukegair.ca</a></span></li>
+                    </ul>
+                    <!-- /Personal info section -->
+                </div>        
+                <!-- /Profile --> 
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+                <!-- Menu -->
+                <nav class="menu">
+                	<ul class="tabs">
+                        <li class="tmenu"><a href="#profile" class="tab-profile"><i>&#x43;</i>Profile</a></li>
+                        <li class="tmenu"><a href="#resume"><i>&#x3a;</i>Resume</a></li>
+                        <li class="tmenu"><a href="#portfolio"><i>&#x38;</i>Portfolio</a></li>
+                        <li class="tmenu"><a href="#contact"><i>&#x21;</i>Contact</a></li>
+                    </ul>
+                    <a class="prev" id="menu-prev" href="#">&#xe073;</a>
+                    <a class="next" id="menu-next" href="#">&#xe076;</a>
 
-    <!-- Custom styles for this template -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106759733-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments)};
-	  gtag('js', new Date());
+                </nav>
+                <!-- /Menu --> 
+                
+                <!-- Resume -->
+                <section id="resume">
+                	 <div class="timeline-section">
+                        <!-- Timeline for Employment  -->   
+                        <h3 class="main-heading">Projects</h3>   
+                        <ul class="timeline">
+                            <li>
+                                                   
+                                <div class="timelineUnit">
+                                    <h4>Tokenizer<span class="timelineDate">2017</span></h4>
+                                    <h5>Engineering Software Design & Analysis in C++</h5>
+                                    <p>Designed and debugged a tokenizer that breaks down strings to their individual components
+Tokens were then classified Utilizing the previous methods, the program takes string input including expressions and stores them in a binary search tree, the final code was then able to correctly evaluate expressions based on relevant conventions
+</p>
+                                </div>
+                            </li>
+                            <li>
+                         
+                                <div class="timelineUnit">
+                                    <h4>Web Developer<span class="timelineDate">2008 - 2010</span></h4>
+                                    <h5>Lorem ipsum</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit amet ligula non lectus. amet ligula non lectus Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                </div>
+                            </li>
+                            <li>
+                     
+                                <div class="timelineUnit">
+                                    <h4>Web Designer<span class="timelineDate">2007</span></h4>
+                                    <h5>Consectetur adipiscing </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit Vivamus sit. Vivamus sit.. consectetur adipiscing Vivamus sit. Vivamus sit </p>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul> 
+                        <!-- /Timeline for Employment  -->
 
-	  gtag('config', 'UA-106759733-1');
-	</script>
+                        <!-- Timeline for Education  -->   
+                        <h3 class="main-heading">Education</h3>   
+                         <ul class="timeline">
+                            <li>            
+                                <div class="timelineUnit">
+                                    <h4> BASC Engineering Science<span class="timelineDate">2015 - 2021</span></h4>
+                                    <h5>Simon Fraser University</h5>
+                                    <p>Currently Studying for a Bachelors in Engineering Science with a minor in Computer Science </p>
+                                </div>
+                            </li>
+                            <!--<li>             
+                                <!--<div class="timelineUnit">
+                                    <h4>Graphic Design<span class="timelineDate">2009</span></h4>
+                                    <h5>School of the Arts</h5>
+                                    <p>Lorem ipsum dolor sit amet, adipiscing elit. egestas.Vivamus sit amet ligula non lectus cursus egestas amet ligula non lectus cursus egestas. </p>
+                                </div>
+                            </li>-->
+                            <div class="clear"></div>
+                        </ul> 
+                        <!-- /Timeline for Education  -->              
+                    </div>
+                    <div class="skills-section">
+                        <!-- Skills -->
+                        <h3 class="main-heading">Software</h3> 
+                        <ul class="skills">
+                            <li>
+                                <h4>Photoshop</h4>
+                                <div class="rating" data-rat="3"></div>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                            </li>
+                            <li>
+                                <h4>Microsoft Suite</h4>
+                                <div class="rating" data-rat="6"></div>
+                            </li>
+                            <li>
+                                <h4>GitHub</h4>
+                                <div class="rating" data-rat="3"></div>
+                            </li>
+                            <!--<li>
+                                <h4>Flash</h4>
+                                <div class="rating" data-rat="3"></div>
+                            </li>-->
+                            <li>
+                                <h4>VScode & Eclipse</h4>
+                                <div class="rating" data-rat="4"></div>
+                            </li>
+                            <li>
+                                <h4>VIM</h4>
+                                <div class="rating" data-rat="5"></div>
+                            </li> 
+                        </ul>
+                   
+                        <h3 class="main-heading">Programming Skills</h3> 
+                        <ul class="skills">
+                            <li>
+                                <h4>C++</h4>
+                                <div class="rating" data-rat="6"></div>
+                            </li>
+                            <li>
+                                <h4>C</h4>
+                                <div class="rating" data-rat="5"></div>
+                            </li>
+							<li>
+                                <h4>Django</h4>
+                                <div class="rating" data-rat="3"></div>
+                            </li>
+                            <li>
+                                <h4>Javascript</h4>
+                                <div class="rating" data-rat="5"></div>
+                            </li>
+                            <li>
+                                <h4>SQL</h4>
+                                <div class="rating" data-rat="4"></div>
+                            </li>
+                            <li>
+                                <h4>Drupal</h4>
+                                <div class="rating" data-rat="2"></div>
+                            </li>
+                        </ul>
+                        <h3 class="main-heading">Hardware Design/Modeling</h3> 
+                        <ul class="skills">
+                            <li>
+                                <h4>VHDL</h4>
+                                <div class="rating" data-rat="3.5"></div>
+                            </li>
+                            <li>
+                                <h4>Matlab</h4>
+                                <div class="rating" data-rat="5"></div>
+                            </li>
+                            <li>
+                                <h4>LTspice & Eagle</h4>
+                                <div class="rating" data-rat="4"></div>
+                            </li>
+                        </ul>
+                     <!-- /Skills -->
+                     </div>
+                     <div class="clear"></div>
+                     <a href="images/Resume.pdf" target ="blank" class="button transition">Download resume as PDF format</a>
+                </section>
+                <!-- /Resume --> 
+                                        
+                <!-- Portfolio -->
+                <section id="portfolio">
+                     <ul class="cats-filter" id="portfolio-filter">
+                        <li><a href="" class="current transition" data-filter="*">All</a></li>
+                        <li><a href="" class="transition" data-filter=".webdesign">Computer Science</a></li>
+                        <li><a href="" class="transition" data-filter=".photoghraphy">Engineering Science</a></li>
+                        <li><a href="" class="transition" data-filter=".illustration">Personal Projects</a></li>
+                        <li><a href="" class="transition" data-filter=".print">Hobbies</a></li>
+                        <!--<li><a href="" class="transition" data-filter=".animation">Animation</a></li>-->
+                    </ul>
+                    <div class="extra-text">Some of the projects I'm proud of.</div>
+                    <ul id="portfolio-list">
+                        <li class="Personal Projects Hobbies">
+                            <a href="portfolio/1.jpg" rel="portfolio[1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit amet ligula non lectus.consectetur adipiscingVivamus sit amet" class="folio">
+                                <img src="portfolio/1-thumb.jpg" alt="Image Title">
+                                <h2 class="title">Personal Servers</h2>
+                                <span class="categorie">Personal Projects / Hobbies</span> 
+                            </a>
+                            <a href="portfolio/4.jpg" rel="portfolio[1]" title="This is the description" class="folio hidden"></a>
+                            <a href="portfolio/4.jpg" rel="portfolio[1]" title="This is the description" class="folio hidden"></a>
+                            <a href="portfolio/4.jpg" rel="portfolio[1]" title="This is the description" class="folio hidden"></a>
+                            <a href="portfolio/4.jpg" rel="portfolio[1]" title="This is the description" class="folio hidden"></a>
+                            <a href="portfolio/4.jpg" rel="portfolio[1]" title="This is the description" class="folio hidden"></a>
+                            <a href="portfolio/4.jpg" rel="portfolio[1]" title="This is the description" class="folio hidden"></a>
+                    	</li>
+                       <!-- <li class="webdesign">
+                            <a href="http://www.youtube.com/watch?v=qqXi8WmQ_WM" rel="portfolio" title="This is the description" class="folio">
+                                <img src="portfolio/3-thumb.jpg" alt="" >
+                                <h2 class="title">Snow time</h2>
+                                <span class="categorie">Webdesign</span> 
+                            </a>
+                    	</li>                        
+                        <li class="photoghraphy">
+                            <a href="http://www.google.com" target="_new">
+                                <img src="portfolio/2-thumb.jpg" alt="" >                            
+                                <h2 class="title">Help us</h2>
+                                <span class="categorie">Photography</span> 
+                            </a>
+                    	</li>
+                        <li class="animation print">
+                            <a href="portfolio/4.jpg" rel="portfolio" class="folio">
+                                <img src="portfolio/4-thumb.jpg" alt="" >
+                                <h2 class="title">Sunshine</h2>
+                                <span class="categorie">Print / Animation</span> 
+                            </a>
+                    	</li>
+                        <li class="animation">
+                            <a href="portfolio/5.jpg" rel="portfolio" class="folio">
+                                <img src="portfolio/5-thumb.jpg" alt="" >
+                                <h2 class="title">Come together</h2>
+                                <span class="categorie">Animation</span> 
+                            </a>
+                    	</li>
+                        <li class="webdesign print">
+                            <a href="portfolio/6.jpg" rel="portfolio" class="folio">
+                                <img src="portfolio/6-thumb.jpg" alt="" >
+                                <h2 class="title">The yellow</h2>
+                                <span class="categorie">Webdesign / Print</span> 
+                            </a>
+                    	</li>
+                        <li class="photoghraphy">
+                            <a href="portfolio/7.jpg" rel="portfolio" class="folio">
+                                <img src="portfolio/7-thumb.jpg" alt="" >
+                                <h2 class="title">Black bird</h2>
+                                <span class="categorie">Photoghraphy</span> 
+                            </a>
+                    	</li>
+                        <li class="illustration">
+                            <a href="portfolio/8.jpg" rel="portfolio" class="folio">
+                                <img src="portfolio/8-thumb.jpg" alt="" >
+                                <h2 class="title">Revolution</h2>
+                                <span class="categorie">Illustration</span> 
+                            </a>
+                    	</li>-->
+                    </ul>
+                </section>
+                <!-- /Portfolio -->  
+                 
+                <!-- Contact -->
+                <section id="contact">
+                	<div id="map"></div>
+                	<!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3 class="main-heading"><span>Contact info</span></h3>
+                    	<ul>
+                            <li>Vancouver, Canada<br /><br /></li>
+                            <li>Email: lgair@sfu.ca</li>
+                            <li>Phone: 604 812 6833</li>
+                            <li>Website: lukegair.ca</li>
+                        </ul>
+                    </div>
+                    <!-- /Contact Info -->
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h3 class="main-heading"><span>Let's keep in touch</span></h3>
+                        <div id="contact-status"></div>
+                        <form action="" id="contactform">
+                            <p>
+                            	<label for="name">Your Name</label>
+                            	<input type="text" name="name" class="input" >
+                            </p>
+                            <p>
+                            	<label for="email">Your Email</label>
+                            	<input type="text" name="email" class="input">
+                            </p>
+                            <p>
+                            	<label for="message">Your Message</label>
+                                <textarea name="message" cols="88" rows="6" class="textarea" ></textarea>
+                            </p>
+                            <input type="submit" name="submit" value="Send your message" class="button transition">
+                        </form>
+                    </div>
+                    <!-- /Contact Form -->
+                </section>
+                <!-- /contact -->  
 
-	  ga('create', 'UA-106759733-1', 'auto');
-	  ga('send', 'pageview');
+            </section>
+            <!-- /Content -->
+            
+            <!-- Footer -->
+			<footer>
+            	<div class="copyright">Copyright © 2017 Luke Gair</div>
+            </footer>
+            <!-- /Footer --> 
+            
+        </section>
+		<!-- /Container -->
 
-	</script>
-	
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Luke Gair</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Documents/Resume.pdf" target="_blank">Résumé</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header class="masthead">
-      <div class="overlay">
-        <div class="container">
-          <h1 class="display-1 text-white">Luke Gair</h1>
-          <h2 class="display-4 text-white">Computer Engineering Student</h2>
-        </div>
-      </div>
-    </header>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="Images/DUMB.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4">About Me</h2>
-              <p>Self-driven and enthusiastic student pursuing a Major in Computer Engineering and a Minor in Computer Science. Excited to develop and produce quality products within the realm of computer hardware, and software development. Strong suits are coding in C++ and C with a passion for learning other languages such as C#. Enjoys Hardware troubleshooting and installation.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="Images/photo_2017-09-20_03-33-25.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="p-5">
-              <h2 class="display-4">Music</h2>
-              <p>Passionate choral musician and trumpet player. Currently an Active member of the Vancouver Youth Choir and almunus to the British Columbia Boys Choir. Background in classical music with a firm appreciation of jazz.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="Images/DED.JPG" alt="experience image">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4">Experience</h2>
-              <p>Three Years of camp counselling experience has brought a better understanding of teamwork and hardship.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Luke Gair 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-  </body>
-
+    </body>
 </html>
